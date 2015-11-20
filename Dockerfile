@@ -4,3 +4,4 @@ WORKDIR /hello
 RUN javac HelloWorld.java
 VOLUME /hello
 ENTRYPOINT ["java", "HelloWorld"]
+env test test
